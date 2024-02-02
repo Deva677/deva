@@ -1,0 +1,23 @@
+#navbarid{
+    color:white; 
+    margin: 10px;
+    }
+#navbarid>li{
+    display: inline;
+    padding: 20px 70px;
+    background-color: black;
+    
+}
+body{
+    background-image: url("https://webneel.com/wallpaper/sites/default/files/images/08-2018/1-nature-wallpaper-grass-hd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.deva{
+    text-align: center;
+    text-size-adjust: 10px;
+    padding: 50px;
+    color:white;
+    margin: 100px;
+  
+}
