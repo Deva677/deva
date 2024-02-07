@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>CSS Animations</title>
+    <link rel="stylesheet" href="deva.css">
+    <style>
+        .dev img{
+             width: 500px;
+            /* padding: 20px; */
+            text-align: center;
+            animation-name: dev;
+            animation-duration: 10s;
+            position: relative;
+            animation-iteration-count: 4;
+            animation-direction: alternate;
+        }
+        div h1{
+        width: 100px;
+             background-color: orange; 
+             color: black;  
+            padding: 2      0px;
+            text-align: center;
+            animation-name: dev;
+            animation-duration: 10s;
+            position: relative;
+            animation-iteration-count: 4;
+            animation-direction: alternate;
+        }
+        @keyframes dev{
+            0%{
+                background-color: blue;
+                color: yellow; left: 0px;top: 500px;}
+                25%{background-color: black;
+                color: aqua; left: 500px;top: 0px;}
+                50%{background-color: green;
+                color: orangered;left: 500px;top: 200px;}
+                75%{background-color: red;
+                color: orange; left: 0px;top:200px ;}
+                100%{background-color: burlywood;
+                color: white; left: 0px;top: 0px;}
+        /* }
+        .dev img{
+            width: 500px;
+            height: 600px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="div">
+    <h1>Deva Bharath</h1>
+</div>
+<div class="dev"> 
+   <img src="download.jpg" alt="">
+</div>
+</body>
+</html>
