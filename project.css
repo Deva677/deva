@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.one{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.two img{
+    padding:10px 200px;
+   
+}
+.three{
+    padding: 20px;
+}
+.three li{
+    display: inline;
+    margin: 10px;
+    font-size: 25px;
+   
+}
+.three a:hover{
+    color: orangered;
+}
+
+.four i{
+   padding:20px ;
+   font-size: 20px;
+   font-style: normal;
+}
+.four i:hover{
+    color: orangered;
+}
+.five img{
+    width: 100%;
+}
+.six{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.seven{
+    padding: 15px 220px;
+}
+.ten img{
+    padding-right: 400px;
+    margin: 10px;
+}
+.eight i{
+    padding: 8px;
+    color: orangered;
+    margin-top: 10px;
+}
+.nine{
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+    margin: 20px;
+}
+.abc{
+    background-color: beige;
+    text-align: center;
+    padding-top: 50px;
+}
+.abc h4{
+    color: orangered;
+   
+}
+.xyz{
+  background: linear-gradient(rgb(75, 133, 160),rgb(119, 114, 114));
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+  
+}
+.x{
+    padding-right: 400px;
+    padding-top: 10px;
+    
+}
+.x i{
+    color:pink;
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+
+
+}
+.z{
+    margin-left: 210px;
+    padding: 10px;
+}
+.dev{
+    padding-right: 100px;
+    padding-top: 10px; font-size: 20px;
+    color: white;
+}
+
+
